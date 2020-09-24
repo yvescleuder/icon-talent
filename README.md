@@ -1,5 +1,5 @@
-- Navege até a pasta application e altere o nome do arquivo de .env.production para .env, poderá utilizar o comando: cp .env.production .env
-- Navege até a pasta application/docker e execute o comando: sudo docker-compose up --build -d
+- Altere o nome do arquivo de .env.production para .env, poderá utilizar o comando: cp .env.production .env
+- Navege até a pasta docker e execute o comando: sudo docker-compose up --build -d
 - Após fazer o build do docker será necessário entrar dentro do container chamado: revendamais-php-fpm, utilizando o comando: sudo docker exec -it revendamais-php-fpm bash
 - Execute os comandos
     - composer install
